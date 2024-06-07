@@ -1,4 +1,4 @@
-# AlphaAI-Insights---Franklin-Templeton
+# AlphAI--Franklin Templeton
 
 ## Stock Picking Algorithm for Franklin Templeton AI Contest
 
@@ -6,6 +6,11 @@
 This repository contains the code for stock picking algorithms developed for the Franklin Templeton AI Contest. These algorithms leverage recommendation systems and deep learning techniques to generate optimized positions for user-selected stocks, tailored specifically for long-short trading strategies.
 
 ### Description
+
+To run the code, you need to download the `raw_data` folder using the following link: https://drive.google.com/drive/folders/1jsFpKYNCUPWZlpxFlrNz9dxPkhF6uESC?usp=share_link
+
+To run the code, put the folder under main directory. 
+
 The repository includes the following components:
 
 1. **preprocessing.py:** Scripts for processing historical data.
@@ -20,10 +25,9 @@ The repository includes the following components:
     - **ut_test.py:** Source code for backtesting.
 
 ### Data Source
-1. **raw_data folder:** Contains non-preprocessed data.
-2. **data folder:** Contains data after preprocessing.
-3. **train folder:** Contains trained models.
-4. **test folder:** Contains results of the backtest.
+
+1. **train folder:** Contains trained models.
+2. **test folder:** Contains results of the backtest.
 
 ### Developers
 - Khalil Sbai
